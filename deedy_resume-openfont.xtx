@@ -47,6 +47,7 @@
 
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
+\usepackage{nth}
  
 \pagestyle{fancy}
 \fancyhf{}
@@ -82,18 +83,21 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Programming}
+\subsection{Languages}
 \location{Experienced:}
-Java \textbullet{}   NodeJS \textbullet{} MongoDB \textbullet{} Javascript \\
-C/C++ \textbullet{} AngularJS \textbullet{} Python \textbullet{} \LaTeX\ \\ 
-JQuery \textbullet{} Bootstrap \textbullet{} Robolectric
+Java \textbullet{} Javascript \textbullet{} C/C++ \textbullet{} \LaTeX\ \\ 
 \location{Familiar:}
 Python \textbullet{} C\# \textbullet{} PHP \textbullet{} SQL \textbullet{} Assembly \\
-Ruby \textbullet{} ReactJS \\
+Ruby
+\sectionsep
+\subsection{Technologies}
+\location{Libraries/Frameworks:}
+Android \textbullet{} Robolectric \textbullet{} NodeJS \\ 
+MongoDB \textbullet{} AngularJS \textbullet{} JQuery \\
+Arduino \textbullet{} ReactJS \\
 \location{Tools:}
 Android Studio \textbullet{} WebStorm \textbullet{} Eclipse\\
-Visual Studio  \textbullet{} Netbeans\textbullet{} Git \textbullet{} Maven \\
-cRIO  \textbullet{} Arduino\textbullet{} FPGA \\
+Visual Studio  \textbullet{} Netbeans\textbullet{} Git \textbullet{} Maven
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -104,55 +108,41 @@ cRIO  \textbullet{} Arduino\textbullet{} FPGA \\
 
 \subsection{University of Waterloo}
 \descript{Bachelor of Software Engineering}
-\location{Cumul. Avg. 92.4\%}
 \location{Expected April 2018}
+\location{Cumul. Avg. 92.4\%}
 \location{Dean's Honours List}
 \sectionsep
 
 \subsection{Mississauga SS}
 \location{June 2013}
-Highest Gr. 12 avg: 96.3\% \\
-Governer General's Award \\
-Silver and Green Lion's Award\\
+Gr. 12 avg: 96.3\% \\
+Specialty High Skills Major in \\Health and Wellness \\
+French Competency Certificate
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\section{Links} 
-%Facebook:// \href{https://facebook/dd}{\bf dd} \\
-%Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-%LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-%YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-%Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-%Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
+%     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Awards}
 \subsection{University}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
+Top 10\% of class for 3/3 terms \\
+Dean's Honours List \\
+Entrance Scholarship for SE \\
+President's Scholarship\\
+Best Design at HackWaterloo
 \sectionsep
 
 \subsection{High School}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
-
+Governer General's Award \\
+Silver and Green Lion's Award\\
+\nth{1} in Peel, Canadian Chem. Contest\\
+\nth{4} in Peel, ECOO Contest 2012\\
+\nth{1} in school, Euclid/Fermat Contests\\
+\nth{1} in school, CCC Competition\\
+\nth{1} in school, SIN Physics Contest\\
+Highest CS mark in school, gr.10,11,12 \\
+Highest Physics mark in school, gr.11,12 \\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -170,7 +160,7 @@ Unix Tools and Scripting \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{Remind101}
+\runsubsection{\href{http://www.remind.com}{Remind101}}
 \descript{Mobile Developer}
 \location{Jan 2015 – April 2015 | San Francisco, CA}
 \vspace{\topsep}
@@ -182,7 +172,7 @@ Unix Tools and Scripting \\
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Pivotal Labs}
+\runsubsection{\href{http://pivotallabs.com/}{Pivotal Labs}}
 \descript{Agile Engineering Intern}
 \location{May 2014 – August 2014 | Toronto, ON}
 \begin{tightemize}
@@ -191,7 +181,7 @@ Unix Tools and Scripting \\
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Junior Achievement}
+\runsubsection{\href{http://jacan.org/}{Junior Achievement}}
 \descript{Vice President of IT}
 \location{Oct 2012 – April 2013 | Mississauga, ON}
 \begin{tightemize}
@@ -200,7 +190,7 @@ Unix Tools and Scripting \\
 \end{tightemize}
 \sectionsep
 
-\runsubsection{FIRST Robotics Team}
+\runsubsection{\href{http://www.firstroboticscanada.org/}{FIRST Robotics Team}}
 \descript{Software Team Leader}
 \location{Oct 2011 – March 2012  | Mississauga SS}
 \begin{tightemize}
@@ -208,7 +198,7 @@ Unix Tools and Scripting \\
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Print Den}
+\runsubsection{\href{http://www.printden.com/}{Print Den}}
 \descript{Web Developer}
 \location{August 2010  | Mississauga, ON}
 \begin{tightemize}
@@ -221,6 +211,16 @@ Unix Tools and Scripting \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
+
+\runsubsection{\href{http://askuw.sahiljain.ca}{Waterloo Answers}}
+\descript{Creator and Lead Developer}
+\location{\textbf{NodeJS}, \textbf{MochaJS}, \textbf{ExpressJS}, \textbf{AngularJS}, \textbf{MongoDB}}
+\begin{tightemize}
+\item A question \& answer system for UW students
+\item Leading a team of 5
+\end{tightemize}
+\sectionsep
+
 \runsubsection{Skip The Wait}
 \descript{Backend Developer}
 \location{Hack The North 2014 | \textbf{NodeJS}, \textbf{ExpressJS}, \textbf{AngularJS}, \textbf{MongoDB}}
@@ -230,16 +230,7 @@ Unix Tools and Scripting \\
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Waterloo Answers}
-\descript{Creator and Lead Developer}
-\location{\textbf{NodeJS}, \textbf{MochaJS}, \textbf{ExpressJS}, \textbf{AngularJS}, \textbf{MongoDB}}
-\begin{tightemize}
-\item A question \& answer system for UW students
-\item Leading a team of 5
-\end{tightemize}
-\sectionsep
-
-\runsubsection{WhiteBoard}
+\runsubsection{\href{http://www.uwwhiteboard.com}{WhiteBoard}}
 \descript{Lead Developer}
 \location{HackWaterloo | \textbf{NodeJS}, \textbf{ExpressJS}, \textbf{MongoDB}, \textbf{EJS Templating}}
 \begin{tightemize}
@@ -248,20 +239,14 @@ Unix Tools and Scripting \\
 \end{tightemize}
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%\section{Awards} 
-%\begin{tabular}{rll}
-%2014	     & top 52/2500  & KPCB Engineering Fellow\\
-%2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-%2013	     & National  & Jump Trading Challenge Finalist\\
-%2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-%2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-%2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-%\end{tabular}
-%\sectionsep
+\runsubsection{Stock Analyzer}
+\descript{Java + HTML5}
+\begin{tightemize}
+\item Used \textbf{machine learning} to find momentum reversals and trends
+\item Determined by volumetric outliers and outstanding price movement
+\item Retrieves stock data from Yahoo API and displays candlestick chart
+\end{tightemize}
+\sectionsep
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
