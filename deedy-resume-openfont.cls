@@ -22,6 +22,7 @@
 \definecolor{primary}{HTML}{2b2b2b} 
 \definecolor{headings}{HTML}{6A6A6A}
 \definecolor{subheadings}{HTML}{333333}
+\definecolor{accent}{HTML}{90ad32}
 
 % Set main fonts
 \usepackage{fontspec}
@@ -43,7 +44,7 @@ Last Updated on \today
 \centering{
 \fontsize{40pt}{60pt}
 \fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #1 
-\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2
+\fontspec[Path = fonts/lato/]{Lato-Lig}\color{accent}\selectfont #2
 } \\[5pt]
 \centering{
 \color{headings}
@@ -56,7 +57,7 @@ Last Updated on \today
 \usepackage{titlesec}
 \titlespacing{\section}{0pt}{0pt}{0pt} 
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
-\newcommand{\sectionsep}{\vspace{8pt}}
+\newcommand{\sectionsep}{\vspace{1pt}}
 
 % Headings command
 \titleformat{\section}{\color{headings}
@@ -76,6 +77,8 @@ Last Updated on \today
 % Location command
 \newcommand{\location}[1]{
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+
+\newcommand{\acc}[1]{\color{accent}\fontspec[Path = fonts/lato/]{Lato-Bol}\selectfont{#1}\normalfont}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
