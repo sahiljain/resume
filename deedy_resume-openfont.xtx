@@ -246,8 +246,8 @@ and reconfiguring \acc{Jenkins} build server
 \location{\textbf{Node.js}, \textbf{MochaJS}, \textbf{ExpressJS}, \textbf{AngularJS}, \textbf{MongoDB}}
 \vspace{\topsep}\vspace{0.5mm}
 \begin{tightemize}
-\item A question \& answer system for UW students
-\item Leading a team of 5
+\item Leading a team of 5 to develop a question \& answer system for UW students
+\item Developed entire Node.js backend, prototyped Angular frontend
 \end{tightemize}
 \sectionsep
 
