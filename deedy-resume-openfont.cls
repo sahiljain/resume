@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry}
+\usepackage[left=5.50cm, right=1cm, vmargin=0.75cm]{geometry}
 \usepackage{hyperref}
 
 % Publications
@@ -22,12 +22,12 @@
 \definecolor{primary}{HTML}{2b2b2b} 
 \definecolor{headings}{HTML}{6A6A6A}
 \definecolor{subheadings}{HTML}{333333}
-\definecolor{accent}{HTML}{90ad32}
+\definecolor{accent}{HTML}{0699cb}
 
 % Set main fonts
 \usepackage{fontspec}
-\setmainfont[Color=primary, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig}
-\setsansfont[Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
+\setmainfont[Color=primary, Scale=1.0, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig}
+\setsansfont[Mapping=tex-text, Scale=1.0, Path = fonts/raleway/]{Raleway-ExtraLight}
 
 % Date command
 \usepackage[absolute]{textpos}
@@ -43,8 +43,8 @@ Last Updated on \today
 \newcommand{\namesection}[3]{
 \centering{
 \fontsize{40pt}{60pt}
-\fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #1 
-\fontspec[Path = fonts/lato/]{Lato-Lig}\color{accent}\selectfont #2
+\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #1 
+\fontspec[Path = fonts/lato/]{Lato-Bol}\color{accent}\selectfont #2
 } \\[5pt]
 \centering{
 \color{headings}
@@ -55,9 +55,10 @@ Last Updated on \today
 
 % Section seperators 
 \usepackage{titlesec}
-\titlespacing{\section}{0pt}{0pt}{0pt} 
+\titlespacing{\section}{0pt}{0pt}{0pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
-\newcommand{\sectionsep}{\vspace{1pt}}
+\newcommand{\sectionsep}{\vspace{3pt}}
+\newcommand{\mainsep}{\vspace{15pt}}
 
 % Headings command
 \titleformat{\section}{\color{headings}
@@ -82,6 +83,8 @@ Last Updated on \today
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
-\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
+\vspace{-\topsep}\begin{itemize}\itemsep 2.5pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
+
+\newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small\vspace{-1mm}#1}}
 
