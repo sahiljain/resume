@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[left=5.50cm, right=1cm, vmargin=0.75cm]{geometry}
+\usepackage[left=5.25cm, right=1.5cm, vmargin=0.75cm]{geometry}
 \usepackage{hyperref}
 
 % Publications
@@ -26,8 +26,8 @@
 
 % Set main fonts
 \usepackage{fontspec}
-\setmainfont[Color=primary, Scale=1.0, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig}
-\setsansfont[Mapping=tex-text, Scale=1.0, Path = fonts/raleway/]{Raleway-ExtraLight}
+\setmainfont[Color=primary, Scale=1.1, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig}
+\setsansfont[Mapping=tex-text, Scale=1.1, Path = fonts/raleway/]{Raleway-ExtraLight}
 
 % Date command
 \usepackage[absolute]{textpos}
@@ -48,7 +48,7 @@ Last Updated on \today
 } \\[5pt]
 \centering{
 \color{headings}
-\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
+\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont #3}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
 \vspace{-15pt}
 }
@@ -57,7 +57,7 @@ Last Updated on \today
 \usepackage{titlesec}
 \titlespacing{\section}{0pt}{0pt}{0pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
-\newcommand{\sectionsep}{\vspace{3pt}}
+\newcommand{\sectionsep}{\vspace{4pt}}
 \newcommand{\mainsep}{\vspace{15pt}}
 
 % Headings command
@@ -83,7 +83,7 @@ Last Updated on \today
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
-\vspace{-\topsep}\begin{itemize}\itemsep 2.5pt \parskip0pt \parsep0pt}
+\vspace{-\topsep}\begin{itemize}\itemsep 3pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
 
 \newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small\vspace{-1mm}#1}}
