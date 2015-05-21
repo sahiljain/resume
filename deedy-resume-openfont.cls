@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[left=5.25cm, right=1.5cm, vmargin=0.75cm]{geometry}
+\usepackage[left=5.50cm, right=1.5cm, vmargin=0.75cm]{geometry}
 \usepackage{hyperref}
 
 % Publications

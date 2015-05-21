@@ -67,7 +67,7 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{adjustwidth*}{-5.25cm}{-1.5cm}
+\begin{adjustwidth*}{-5.50cm}{-1.5cm}
 \namesection{Sahil}{Jain}{\urlstyle{same}2B Software Engineering | 
 \href{http://sahiljain.ca}{sahiljain\acc{.ca}} | \href{mailto:s44jain@uwaterloo.ca}{s44jain@uwaterloo.ca} | 647-949-8165
 }
@@ -168,7 +168,7 @@
 %\begin{minipage}[t]{0.8\textwidth} 
 
 
-\setlength\marginparwidth{100pt}
+\setlength\marginparwidth{105pt}
 \vspace{10mm}
 \reversemarginpar
 
@@ -298,7 +298,7 @@ and reconfiguring \acc{Jenkins} build server
 \begin{tightemize}
 \item Grade 12 average: \acc{96.3\%}
 \item \nth{1} in school: Euclid, CCC, SIN
-\item \textbf{Awards}: Governer General's Award, Silver Lion's Award, \nth{4} in Peel ECOO
+\item \textbf{Awards}: Governor General's Award, Silver Lion's Award, \nth{4} in Peel ECOO
 \end{tightemize}
 \sectionsep
 
