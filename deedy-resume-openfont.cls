@@ -22,7 +22,7 @@
 \definecolor{primary}{HTML}{2b2b2b} 
 \definecolor{headings}{HTML}{6A6A6A}
 \definecolor{subheadings}{HTML}{333333}
-\definecolor{accent}{HTML}{0699cb}
+\definecolor{accent}{HTML}{057AA2}
 
 % Set main fonts
 \usepackage{fontspec}
