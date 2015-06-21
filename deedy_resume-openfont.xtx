@@ -57,13 +57,6 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\lastupdated
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -72,101 +65,6 @@
 \href{http://sahiljain.ca}{sahiljain\acc{.ca}} | \href{mailto:s44jain@uwaterloo.ca}{s44jain@uwaterloo.ca} | 647-949-8165
 }
 \end{adjustwidth*}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     COLUMN ONE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\begin{minipage}[t]{0.29\textwidth} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\section{Skills}
-%\subsection{Languages}
-%\location{Experienced:}
-%Java \textbullet{} Javascript \\ 
-% C/C++ \textbullet{} \LaTeX \\
-%\location{Familiar:}
-%Python \textbullet{} C\# \textbullet{} PHP\\
-%SQL \textbullet{} Assembly \textbullet{} Ruby \\
-%\sectionsep
-%\subsection{Technologies}
-%\location{Libraries/Frameworks:}
-%Android \textbullet{} NodeJS \\ 
-%MongoDB \textbullet{} AngularJS \\
-% JQuery \textbullet{} ReactJS \\
-%\location{Tools:}
-%Android Studio \textbullet{} WebStorm \\
-%Eclipse \textbullet{} Visual Studio  \\
-%Netbeans\textbullet{} Git \textbullet{} Maven
-%\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\vspace{8mm}
-%\subsection{University of Waterloo}
-%\descript{Bachelor of Software Engineering}
-%\location{Expected April 2018}
-%\location{Cumul. Avg. 92.4\%}
-%Dean's Honours List
-%Top 10\% of class for 3/3 terms \\
-%Entrance Scholarship for SE \\
-%President's Scholarship\\
-%Best Design at HackWaterloo
-%\sectionsep
-%
-%\vspace{5mm}
-%\subsection{Mississauga SS}
-%\location{June 2013}
-%Gr. 12 avg: 96.3\% \\
-%Governer General's Award \\
-%Silver Lion's Award\\
-%\nth{4} in Peel, ECOO Contest\\
-%\nth{1} in school, Euclid Contest\\
-%\nth{1} in school, CCC Competition\\
-%\nth{1} in school, SIN Contest\\
-%Highest CS mark, gr.10 - 12 \\
-%\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\section{Awards}
-%\subsection{University}
-%Top 10\% of class for 3/3 terms \\
-%Dean's Honours List \\
-%Entrance Scholarship for SE \\
-%President's Scholarship\\
-%Best Design at HackWaterloo
-%\sectionsep
-%
-%\subsection{High School}
-%Governer General's Award \\
-%Silver and Green Lion's Award\\
-%\nth{1} in Peel, Canadian Chem. Contest\\
-%\nth{4} in Peel, ECOO Contest 2012\\
-%\nth{1} in school, Euclid/Fermat Contests\\
-%\nth{1} in school, CCC Competition\\
-%\nth{1} in school, SIN Physics Contest\\
-%Highest CS mark in school, gr.10,11,12 \\
-%Highest Physics mark in school, gr.11,12 \\
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     COLUMN TWO
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\end{minipage} 
-%\hfill
-%\begin{minipage}[t]{0.8\textwidth} 
-
 
 \setlength\marginparwidth{105pt}
 \vspace{10mm}
@@ -180,6 +78,7 @@
 \item \textbf{Software}: Android Studio, Eclipse, Visual Studio, Netbeans, Jenkins, Git, MongoDB
 \end{tightemize}
 \mainsep
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -210,31 +109,6 @@ and reconfiguring \acc{Jenkins} build server
 \item Shipped mobile payment and XMPP chat apps using Arca MVVM framework
 \item Learned \acc{Robolectric} best practices from its creators
 \end{tightemize}
-
-%\runsubsection{\href{http://jacan.org/}{Junior Achievement}}
-%\descript{Vice President of IT}
-%\location{Oct 2012 – April 2013 | Mississauga, ON}
-%\begin{tightemize}
-%\item Developed survey software for a business expo with \textbf{Java Swing}
-%\item Led the development of the company website
-%\end{tightemize}
-%\sectionsep
-
-%\runsubsection{\href{http://www.firstroboticscanada.org/}{FIRST Robotics Team}}
-%\descript{Software Team Leader}
-%\location{Oct 2011 – March 2012  | Mississauga SS}
-%\begin{tightemize}
-%\item \acc{Led} and \acc{mentored} a team of 5, worked with \acc{Java} and \acc{SVN}
-%\end{tightemize}
-%\sectionsep
-
-%\runsubsection{\href{http://www.printden.com/}{Print Den}}
-%\descript{Web Developer}
-%\location{August 2010  | Mississauga, ON}
-%\begin{tightemize}
-%\item Updated websites for clients using \textbf{PHP}, \textbf{Drupal}
-%\end{tightemize}
-%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROJECTS
@@ -301,18 +175,6 @@ and reconfiguring \acc{Jenkins} build server
 \item \textbf{Awards}: Governor General's Award, Silver Lion's Award, \nth{4} in Peel ECOO
 \end{tightemize}
 \sectionsep
-
-%
-%Gr. 12 avg: 96.3\% \\
-%Governer General's Award \\
-%Silver Lion's Award\\
-%\nth{4} in Peel, ECOO Contest\\
-%\nth{1} in school, Euclid Contest\\
-%\nth{1} in school, CCC Competition\\
-%\nth{1} in school, SIN Contest\\
-%Highest CS mark, gr.10 - 12 \\
-
-
 
 %\end{minipage} 
 \end{document}  \documentclass[]{article}
