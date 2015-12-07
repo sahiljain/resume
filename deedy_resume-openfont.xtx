@@ -60,7 +60,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{adjustwidth*}{-5.50cm}{-1.5cm}
-\namesection{Sahil}{Jain}{\urlstyle{same}2B Software Engineering | 
+\namesection{Sahil}{Jain}{\urlstyle{same}3A Software Engineering | 
 \href{http://sahiljain.ca}{sahiljain\acc{.ca}} | \href{mailto:s44jain@uwaterloo.ca}{s44jain@uwaterloo.ca} | 647-949-8165
 }
 \end{adjustwidth*}
@@ -74,7 +74,7 @@
 \begin{tightemize}
 \item \textbf{Languages}: Scala, Java, Javascript, C/C++, Python, Ruby, SQL, \LaTeX, Assembly
 \item \textbf{Technologies}: Android, Thrift, Zookeeper, Cassandra, Node.js, AngularJS, ReactJS
-\item \textbf{Software}: IntelliJ IDEA, Android Studio, Eclipse, Visual Studio, Netbeans, Jenkins, Git, MongoDB
+\item \textbf{Software}: IntelliJ IDEA, Eclipse, Visual Studio, Netbeans, Jenkins, Git, MongoDB
 \end{tightemize}
 \mainsep
 
@@ -85,15 +85,14 @@
 \MarginText{\section{Experience}}
 \noindent
 \hspace{-1.5mm}
-
 \runsubsection{\href{https://www.pagerduty.com/}{PagerDuty}}
 \descript{Backend Services Software Developer}
 \location{September 2015 – December 2015 | Toronto, ON}
 \vspace{\topsep}\vspace{0.5mm}
 \begin{tightemize}
-\item Maintained reliability and performance of Scala services in the notification pipeline
+\item Maintained reliability and performance of \acc{Scala} services in the notification pipeline
 \item something something reliability and performance via distributed computing, Cassandra, Scala, Zookeeper
-\item Increased production data archival speed by 10x by implementing concurrency
+\item Increased production data archival speed by \acc{10x} by implementing concurrency
 \item Improved SLA metric accuracy by ...
 \end{tightemize}
 
