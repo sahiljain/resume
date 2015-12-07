@@ -72,9 +72,9 @@
 \MarginText{\section{Skills}}
 \vspace{1mm}
 \begin{tightemize}
-\item \textbf{Languages}: Java, Javascript, C/C++, Python, Ruby, SQL, PHP, C\#, \LaTeX, Assembly
-\item \textbf{Frameworks}: Android, Node.js, AngularJS, ReactJS
-\item \textbf{Software}: Android Studio, Eclipse, Visual Studio, Netbeans, Jenkins, Git, MongoDB
+\item \textbf{Languages}: Scala, Java, Javascript, C/C++, Python, Ruby, SQL, \LaTeX, Assembly
+\item \textbf{Technologies}: Android, Thrift, Zookeeper, Cassandra, Node.js, AngularJS, ReactJS
+\item \textbf{Software}: IntelliJ IDEA, Android Studio, Eclipse, Visual Studio, Netbeans, Jenkins, Git, MongoDB
 \end{tightemize}
 \mainsep
 
@@ -85,10 +85,24 @@
 \MarginText{\section{Experience}}
 \noindent
 \hspace{-1.5mm}
+
+\runsubsection{\href{https://www.pagerduty.com/}{PagerDuty}}
+\descript{Backend Services Software Developer}
+\location{September 2015 – December 2015 | Toronto, ON}
+\vspace{\topsep}\vspace{0.5mm}
+\begin{tightemize}
+\item Maintained reliability and performance of Scala services in the notification pipeline
+\item something something reliability and performance via distributed computing, Cassandra, Scala, Zookeeper
+\item Increased production data archival speed by 10x by implementing concurrency
+\item Improved SLA metric accuracy by ...
+\end{tightemize}
+
+\sectionsep
+
 \runsubsection{\href{http://www.remind.com}{Remind101}}
 \descript{Software Engineering Intern}
 \location{Jan 2015 – April 2015 | San Francisco, CA}
-\vspace{\topsep}\vspace{0.5mm}
+\vspace{0.5mm}
 \begin{tightemize}
 \item Developed \acc{Android} client with \acc{1 million} downloads; \acc{99.9\%} crash-free status
 \item Independently developed Office Hours feature, used by over \acc{50\%} of teachers
@@ -97,6 +111,7 @@
 and reconfiguring \acc{Jenkins} build server
 \item Made improvements to \acc{Angular} app and \acc{Rails} backend
 \end{tightemize}
+
 \sectionsep
 
 \runsubsection{\href{http://pivotallabs.com/}{Pivotal Labs}}
