@@ -66,14 +66,14 @@
 \end{adjustwidth*}
 
 \setlength\marginparwidth{105pt}
-\vspace{10mm}
+\vspace{7mm}
 \reversemarginpar
 
 \MarginText{\section{Skills}}
 \vspace{1mm}
 \begin{tightemize}
-\item \textbf{Languages}: Scala, Java, Javascript, C/C++, Python, Ruby, SQL, \LaTeX, Assembly
-\item \textbf{Technologies}: Android, Thrift, Zookeeper, Cassandra, Node.js, AngularJS, ReactJS
+\item \textbf{Languages}: Scala, Java, Javascript, C/C++, Python, Ruby/Rails, SQL, \LaTeX, Assembly
+\item \textbf{Technologies}: Cassandra, Android, Node.js, Apache Thrift/Zookeeper, AngularJS
 \item \textbf{Software}: IntelliJ IDEA, Eclipse, Visual Studio, Netbeans, Jenkins, Git, MongoDB
 \end{tightemize}
 \mainsep
@@ -86,14 +86,14 @@
 \noindent
 \hspace{-1.5mm}
 \runsubsection{\href{https://www.pagerduty.com/}{PagerDuty}}
-\descript{Backend Services Software Developer}
+\descript{Backend Services Developer Intern} 
 \location{September 2015 – December 2015 | Toronto, ON}
 \vspace{\topsep}\vspace{0.5mm}
 \begin{tightemize}
-\item Maintained reliability and performance of \acc{Scala} services in the notification pipeline
-\item something something reliability and performance via distributed computing, Cassandra, Scala, Zookeeper
+\item Improved reliability and performance of core realtime \acc{Scala} services
+\item Optimized \acc{Cassandra} queries, and applied distributed systems concepts
 \item Increased production data archival speed by \acc{10x} by implementing concurrency
-\item Improved SLA metric accuracy by ...
+\item Improved SLA metric accuracy and reduced transient alerts
 \end{tightemize}
 
 \sectionsep
@@ -134,7 +134,6 @@ and reconfiguring \acc{Jenkins} build server
 \vspace{\topsep}\vspace{0.5mm}
 \begin{tightemize}
 \item Leading a team of 5 to develop a question \& answer system for UW students
-\item Developed entire Node.js backend, prototyped Angular frontend
 \end{tightemize}
 \sectionsep
 
@@ -143,7 +142,6 @@ and reconfiguring \acc{Jenkins} build server
 \location{Hack The North 2014 | \textbf{Node.js}, \textbf{ExpressJS}, \textbf{AngularJS}, \textbf{MongoDB}}
 \begin{tightemize}
 \item Reduce wait time by allowing patients to check-in online for walk-in clinics
-\item Created API endpoints, data models, and NoSQL db queries
 \end{tightemize}
 \sectionsep
 
@@ -160,8 +158,6 @@ and reconfiguring \acc{Jenkins} build server
 \location{\textbf{Java}, \textbf{HTML5}}
 \begin{tightemize}
 \item Applied \acc{machine learning} principles to find momentum reversals and trends
-\item Determined by volumetric outliers and outstanding price movement
-\item Retrieves stock data from Yahoo API and displays candlestick chart
 \end{tightemize}
 
 
@@ -184,8 +180,7 @@ and reconfiguring \acc{Jenkins} build server
 \location{Graduated June 2013}
 \begin{tightemize}
 \item Grade 12 average: \acc{96.3\%}
-\item \nth{1} in school: Euclid, CCC, SIN
-\item \textbf{Awards}: Governor General's Award, Silver Lion's Award, \nth{4} in Peel ECOO
+\item \nth{1} in school in Euclid/CCC/SIN, Governor General's Award, Silver Lion's Award
 \end{tightemize}
 \sectionsep
 
