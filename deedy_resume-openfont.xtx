@@ -60,7 +60,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{adjustwidth*}{-5.50cm}{-1.5cm}
-\namesection{Sahil}{Jain}{\urlstyle{same}3A Software Engineering | \href{mailto:s44jain@uwaterloo.ca}{s44jain@uwaterloo.ca} | 647-949-8165 \\  
+\namesection{Sahil}{Jain}{\urlstyle{same}3A Software Engineering | \href{mailto:s44jain@uwaterloo.ca}{s44jain@uwaterloo.ca} | 647-949-8165 \vspace{0.5mm} \\  
 \href{http://sahiljain.ca}{sahiljain.ca} | \href{https://github.com/sahiljain}{github.com/sahiljain} | \href{https://ca.linkedin.com/in/sahiljainwaterloo}{LinkedIn://sahiljainwaterloo}
 }
 \end{adjustwidth*}
