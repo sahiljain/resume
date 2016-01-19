@@ -60,13 +60,13 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{adjustwidth*}{-5.50cm}{-1.5cm}
-\namesection{Sahil}{Jain}{\urlstyle{same}3A Software Engineering | 
-\href{http://sahiljain.ca}{sahiljain.ca} | \href{mailto:s44jain@uwaterloo.ca}{s44jain@uwaterloo.ca} | 647-949-8165
+\namesection{Sahil}{Jain}{\urlstyle{same}3A Software Engineering | \href{mailto:s44jain@uwaterloo.ca}{s44jain@uwaterloo.ca} | 647-949-8165 \\  
+\href{http://sahiljain.ca}{sahiljain.ca} | \href{https://github.com/sahiljain}{github.com/sahiljain} | \href{https://ca.linkedin.com/in/sahiljainwaterloo}{LinkedIn://sahiljainwaterloo}
 }
 \end{adjustwidth*}
 
 \setlength\marginparwidth{105pt}
-\vspace{8mm}
+\vspace{5mm}
 \reversemarginpar
 \MarginText{\vspace{0.5mm}\section{Skills}}
 \noindent
@@ -75,7 +75,7 @@
 \textbf{Languages}: Scala, Java, JavaScript, C/C++, Python, Ruby, SQL, PHP \\
 \hspace*{-0.5mm}
 \vspace{1.5mm}
-\textbf{Technologies}: Cassandra, Android, Node.js, MongoDB, Rails, AngularJS \\
+\textbf{Technologies}: Android, Node.js, Cassandra, MongoDB, AngularJS, Rails \\
 \hspace*{-0.5mm}
 \vspace{1.5mm}
 \textbf{Software}: IntelliJ IDEA, Eclipse, Visual Studio, Jenkins, Git, SVN \\
