@@ -125,7 +125,7 @@ and reconfiguring Jenkins build server
 \begin{tightemize}
 \item Prototyped and released \acc{Android} apps using \acc{TDD} and \acc{Agile} the right way
 \item Shipped mobile payment and XMPP chat apps using Arca MVVM framework
-\item Learned Android testing best practices from the creators of \acc{Roboelectric}
+\item Learned Android testing best practices from the creators of \acc{Robolectric}
 \end{tightemize}
 
 
