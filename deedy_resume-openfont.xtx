@@ -66,7 +66,7 @@
 \end{adjustwidth*}
 
 \setlength\marginparwidth{105pt}
-\vspace{9mm}
+\vspace{8mm}
 \reversemarginpar
 \MarginText{\vspace{0.5mm}\section{Skills}}
 \noindent
@@ -109,7 +109,7 @@
 \location{Android, Robolectric, Jenkins, AngularJS, Rails}
 \vspace{0.5mm}
 \begin{tightemize}
-\item Developed Android client with \acc{1 million} downloads; \acc{99.9\%} crash-free status
+\item Developed Android client with over \acc{1 million} downloads; \acc{99.9\%} crash-free status
 \item Independently developed Office Hours feature, used by over \acc{50\%} of teachers
 \item Implemented \acc{Material Design} and enhanced notifications for \acc{Android Wear}
 \item Improved performance and reliability of test suite by migrating tests to Robolectric
@@ -121,11 +121,12 @@ and reconfiguring Jenkins build server
 
 \runsubsectionhref{http://pivotallabs.com/}{Pivotal Labs}
 \descriptnoline{Agile Engineering Intern} \hfill \location{Spring 2014 | Toronto}
+\location{Android, Robolectric}
 \vspace{0.5mm}
 \begin{tightemize}
-\item Prototyped and released \acc{Android} apps using \acc{TDD} and \acc{Agile} the right way
+\item Prototyped and released Android apps using \acc{TDD} and \acc{Agile} the right way
 \item Shipped mobile payment and XMPP chat apps using Arca MVVM framework
-\item Learned Android testing best practices from the creators of \acc{Robolectric}
+\item Learned Android testing best practices from the creators of Robolectric
 \end{tightemize}
 
 
