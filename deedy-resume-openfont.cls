@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[left=5.50cm, right=1.5cm, vmargin=0.75cm]{geometry}
+\usepackage[left=5.50cm, right=1.6cm, vmargin=0.75cm]{geometry}
 \usepackage{hyperref}
 
 % Publications
@@ -57,7 +57,7 @@ Last Updated on \today
 \usepackage{titlesec}
 \titlespacing{\section}{0pt}{0pt}{0pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
-\newcommand{\sectionsep}{\vspace{5pt}}
+\newcommand{\sectionsep}{\vspace{6pt}}
 \newcommand{\mainsep}{\vspace{15pt}}
 
 % Headings command

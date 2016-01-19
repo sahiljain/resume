@@ -66,18 +66,21 @@
 \end{adjustwidth*}
 
 \setlength\marginparwidth{105pt}
-\vspace{8mm}
+\vspace{9mm}
 \reversemarginpar
-
-\MarginText{\section{Skills}}
-\vspace{1mm}
-\begin{tightemize}
-\item \textbf{Languages}: Scala, Java, JavaScript, C/C++, Python, Ruby, SQL, PHP
-\item \textbf{Technologies}: Cassandra, Android, Node.js, MongoDB, Rails, AngularJS
-\item \textbf{Software}: IntelliJ IDEA, Eclipse, Visual Studio, Jenkins, Git, SVN
-\item \textbf{Hardware}: Arduino, Raspberry Pi, cRIO, Scribbler
-\item \textbf{Music}: Tenor saxophone, guitar, piano, drums, FL Studio
-\end{tightemize}
+\MarginText{\vspace{0.5mm}\section{Skills}}
+\noindent
+\hspace*{-0.75mm}
+\vspace{1.5mm}
+\textbf{Languages}: Scala, Java, JavaScript, C/C++, Python, Ruby, SQL, PHP \\
+\hspace*{-0.5mm}
+\vspace{1.5mm}
+\textbf{Technologies}: Cassandra, Android, Node.js, MongoDB, Rails, AngularJS \\
+\hspace*{-0.5mm}
+\vspace{1.5mm}
+\textbf{Software}: IntelliJ IDEA, Eclipse, Visual Studio, Jenkins, Git, SVN \\
+\hspace*{-0.75mm}
+\textbf{Hardware}: Arduino, Raspberry Pi, cRIO, Scribbler
 \mainsep
 
 
@@ -85,12 +88,12 @@
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\MarginText{\section{Experience}}
+\MarginText{\vspace{-0.5mm}\section{Experience}}
 \noindent
 \hspace{-1.5mm}
 \runsubsectionhref{https://www.pagerduty.com/}{PagerDuty}
 \descriptnoline{Backend Services Developer} \hfill \location{Fall 2015 | Toronto}
-\location{Scala, Cassandra, Finagle, Apache Thrift, Zookeeper, Rails, MySQL, AWS}
+\location{Scala, Cassandra, Finagle, Apache Thrift, Zookeeper, Rails, AWS}
 \vspace{\topsep}\vspace{0.5mm}
 \begin{tightemize}
 \item Improved reliability, scalability, and performance of critical realtime Scala services in the alerting pipeline
@@ -111,7 +114,7 @@
 \item Implemented \acc{Material Design} and enhanced notifications for \acc{Android Wear}
 \item Improved performance and reliability of test suite by migrating tests to Robolectric
 and reconfiguring Jenkins build server
-\item Made improvements to Angular app and Rails backend
+\item Made minor UI improvements to Rails and Angular app 
 \end{tightemize}
 
 \sectionsep
@@ -122,7 +125,7 @@ and reconfiguring Jenkins build server
 \begin{tightemize}
 \item Prototyped and released \acc{Android} apps using \acc{TDD} and \acc{Agile} the right way
 \item Shipped mobile payment and XMPP chat apps using Arca MVVM framework
-\item Learned \acc{Robolectric} best practices from its creators
+\item Learned Android testing best practices from the creators of \acc{Roboelectric}
 \end{tightemize}
 
 
@@ -131,9 +134,9 @@ and reconfiguring Jenkins build server
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \mainsep
-\MarginText{\section{Projects}}
+\MarginText{\vspace{-0.5mm}\section{Projects}}
 \runsubsectionhref{http://askuw.sahiljain.ca}{Waterloo Answers} \\
-\location{\textbf{Node.js}, \textbf{MochaJS}, \textbf{ExpressJS}, \textbf{AngularJS}, \textbf{MongoDB}}
+\location{Node.js, MochaJS, ExpressJS, AngularJS, MongoDB}
 \vspace{\topsep}\vspace{0.5mm}
 \begin{tightemize}
 \item Led a team of 5 to develop a question \& answer system for UW students
@@ -149,7 +152,7 @@ and reconfiguring Jenkins build server
 % \sectionsep
 
 \runsubsectionhref{http://www.uwwhiteboard.com}{WhiteBoard} \\
-\location{\textbf{Node.js}, \textbf{ExpressJS}, \textbf{MongoDB}, \textbf{EJS Templating}}
+\location{Node.js, ExpressJS, MongoDB, EJS Templating}
 \begin{tightemize}
 \item A platform to help find developers for side projects
 \item Winner of the \acc{Best Design Award} at HackWaterloo
@@ -157,14 +160,14 @@ and reconfiguring Jenkins build server
 \sectionsep
 
 \runsubsectionhref{http://sahiljain.ca/digit}{Digit Recognizer} \\
-\location{\textbf{MATLAB}, \textbf{JavaScript}}
+\location{MATLAB, JavaScript}
 \begin{tightemize}
 \item Used MNIST dataset to train a \acc{neural network} via backpropogation
 \end{tightemize}
 \sectionsep
 
 \runsubsectionhref{http://sahiljain.ca/stockdisplay}{Stock Analyzer} \\
-\location{\textbf{Java}, \textbf{HTML5}, \textbf{JavaScript}}
+\location{Java, HTML5, JavaScript}
 \begin{tightemize}
 \item Applied \acc{machine learning} principles to find momentum reversals and trends
 \end{tightemize}
@@ -179,18 +182,28 @@ and reconfiguring Jenkins build server
 \runsubsection{University of Waterloo}
 \descript{Bachelor of Software Engineering}
 \location{Expected April 2018 | Cumulative average: \acc{92.3\%}}
-\vspace{\topsep}
-\begin{tightemize}
-\item Awards: Dean's List, top 10\% of class every term, President's Scholarship
-\end{tightemize}
-\sectionsep
+% \vspace{\topsep}
+% \begin{tightemize}
+% \item Awards: Dean's List, top 10\% of class every term, President's Scholarship
+% \end{tightemize}
+% \sectionsep
+\mainsep
 
-\runsubsection{Mississauga Secondary School}\\
-\location{Graduated June 2013 | Grade 12 average: \acc{96.3\%}}
-\begin{tightemize}
-\item \nth{1} in school in Euclid/CCC/SIN, Governor General's Award, Silver Lion's Award
-\end{tightemize}
-\sectionsep
+% \runsubsection{Mississauga Secondary School}\\
+% \location{Graduated June 2013 | Grade 12 average: \acc{96.3\%}}
+% \begin{tightemize}
+% \item \nth{1} in school in Euclid/CCC/SIN, Governor General's Award, Silver Lion's Award
+% \end{tightemize}
+% \sectionsep
+
+
+\MarginText{\vspace{-0.25mm}\section{Awards}}
+\noindent
+\hspace*{-0.5mm}
+\vspace{1mm}
+\textbf{University}: Dean's Honour List, top 10\% of class every term, President's Scholarship \\
+\hspace*{-0.5mm}
+\textbf{High School}: \nth{1} in school in Fermat/Euclid/CCC/SIN, Governor General's Award
 
 %\end{minipage} 
 \end{document}  \documentclass[]{article}
