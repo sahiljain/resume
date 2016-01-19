@@ -57,7 +57,7 @@ Last Updated on \today
 \usepackage{titlesec}
 \titlespacing{\section}{0pt}{0pt}{0pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
-\newcommand{\sectionsep}{\vspace{4pt}}
+\newcommand{\sectionsep}{\vspace{5pt}}
 \newcommand{\mainsep}{\vspace{15pt}}
 
 % Headings command
@@ -71,13 +71,19 @@ Last Updated on \today
 \newcommand{\runsubsection}[1]{
 \color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
 
+\newcommand{\runsubsectionhref}[2]{
+\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\href {#1}{\uppercase{#2}} \normalfont}
+
 % Descriptors command
 \newcommand{\descript}[1]{
 \color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
 
+\newcommand{\descriptnoline}[1]{
+\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
 % Location command
 \newcommand{\location}[1]{
-\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
 
 \newcommand{\acc}[1]{\color{accent}\fontspec[Path = fonts/lato/]{Lato-Bol}\selectfont{#1}\normalfont}
 
