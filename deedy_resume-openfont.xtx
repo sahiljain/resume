@@ -43,7 +43,6 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
 \usepackage{nth}
@@ -54,126 +53,156 @@
  
 \begin{document}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{adjustwidth*}{-5.50cm}{-1.5cm}
-\namesection{Sahil}{Jain}{\urlstyle{same}2B Software Engineering | 
-\href{http://sahiljain.ca}{sahiljain\acc{.ca}} | \href{mailto:s44jain@uwaterloo.ca}{s44jain@uwaterloo.ca} | 647-949-8165
+\namesection{Sahil}{Jain}{\urlstyle{same}3A Software Engineering | 
+\href{http://sahiljain.ca}{sahiljain.ca} | \href{mailto:s44jain@uwaterloo.ca}{s44jain@uwaterloo.ca} | 647-949-8165
 }
 \end{adjustwidth*}
 
 \setlength\marginparwidth{105pt}
-\vspace{10mm}
+\vspace{9mm}
 \reversemarginpar
-
-\MarginText{\section{Skills}}
-\vspace{1mm}
-\begin{tightemize}
-\item \textbf{Languages}: Java, Javascript, C/C++, Python, Ruby, SQL, PHP, C\#, \LaTeX, Assembly
-\item \textbf{Frameworks}: Android, Node.js, AngularJS, ReactJS
-\item \textbf{Software}: Android Studio, Eclipse, Visual Studio, Netbeans, Jenkins, Git, MongoDB
-\end{tightemize}
+\MarginText{\vspace{0.5mm}\section{Skills}}
+\noindent
+\hspace*{-0.75mm}
+\vspace{1.5mm}
+\textbf{Languages}: Scala, Java, JavaScript, C/C++, Python, Ruby, SQL, PHP \\
+\hspace*{-0.5mm}
+\vspace{1.5mm}
+\textbf{Technologies}: Cassandra, Android, Node.js, MongoDB, Rails, AngularJS \\
+\hspace*{-0.5mm}
+\vspace{1.5mm}
+\textbf{Software}: IntelliJ IDEA, Eclipse, Visual Studio, Jenkins, Git, SVN \\
+\hspace*{-0.75mm}
+\textbf{Hardware}: Arduino, Raspberry Pi, cRIO, Scribbler
 \mainsep
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\MarginText{\section{Experience}}
+\MarginText{\vspace{-0.5mm}\section{Experience}}
 \noindent
 \hspace{-1.5mm}
-\runsubsection{\href{http://www.remind.com}{Remind101}}
-\descript{Software Engineering Intern}
-\location{Jan 2015 – April 2015 | San Francisco, CA}
+\runsubsectionhref{https://www.pagerduty.com/}{PagerDuty}
+\descriptnoline{Backend Services Developer} \hfill \location{Fall 2015 | Toronto}
+\location{Scala, Cassandra, Finagle, Apache Thrift, Zookeeper, Rails, AWS}
 \vspace{\topsep}\vspace{0.5mm}
 \begin{tightemize}
-\item Developed \acc{Android} client with \acc{1 million} downloads; \acc{99.9\%} crash-free status
-\item Independently developed Office Hours feature, used by over \acc{50\%} of teachers
-\item Implemented \acc{Material Design} and enhanced notifications for \acc{Android Wear}
-\item Improved performance and reliability of test suite significantly by migrating tests to \acc{Robolectric} 
-and reconfiguring \acc{Jenkins} build server
-\item Made improvements to \acc{Angular} app and \acc{Rails} backend
+\item Improved reliability, scalability, and performance of critical realtime Scala services in the alerting pipeline
+\item Increased production data archival speed \acc{10x} by implementing concurrency
+\item Optimized Cassandra queries and applied distributed systems concepts
+\item Improved SLA metric accuracy and reduced transient alerts
 \end{tightemize}
+
 \sectionsep
 
-\runsubsection{\href{http://pivotallabs.com/}{Pivotal Labs}}
-\descript{Agile Engineering Intern}
-\location{May 2014 – August 2014 | Toronto, ON}
+\runsubsectionhref{http://www.remind.com}{Remind101}
+\descriptnoline{Software Engineering Intern} \hfill \location{Winter 2015 | San Francisco}
+\location{Android, Robolectric, Jenkins, AngularJS, Rails}
 \vspace{0.5mm}
 \begin{tightemize}
-\item Prototyped and released \acc{Android} apps doing \acc{TDD} and \acc{Agile} the right way
-\item Shipped mobile payment and XMPP chat apps using Arca MVVM framework
-\item Learned \acc{Robolectric} best practices from its creators
+\item Developed Android client with \acc{1 million} downloads; \acc{99.9\%} crash-free status
+\item Independently developed Office Hours feature, used by over \acc{50\%} of teachers
+\item Implemented \acc{Material Design} and enhanced notifications for \acc{Android Wear}
+\item Improved performance and reliability of test suite by migrating tests to Robolectric
+and reconfiguring Jenkins build server
+\item Made minor UI improvements to Rails and Angular app 
 \end{tightemize}
+
+\sectionsep
+
+\runsubsectionhref{http://pivotallabs.com/}{Pivotal Labs}
+\descriptnoline{Agile Engineering Intern} \hfill \location{Spring 2014 | Toronto}
+\vspace{0.5mm}
+\begin{tightemize}
+\item Prototyped and released \acc{Android} apps using \acc{TDD} and \acc{Agile} the right way
+\item Shipped mobile payment and XMPP chat apps using Arca MVVM framework
+\item Learned Android testing best practices from the creators of \acc{Robolectric}
+\end{tightemize}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \mainsep
-\MarginText{\section{Projects}}
-\runsubsection{\href{http://askuw.sahiljain.ca}{Waterloo Answers}}
-\descript{Creator and Lead Developer}
-\location{\textbf{Node.js}, \textbf{MochaJS}, \textbf{ExpressJS}, \textbf{AngularJS}, \textbf{MongoDB}}
+\MarginText{\vspace{-0.5mm}\section{Projects}}
+\runsubsectionhref{http://askuw.sahiljain.ca}{Waterloo Answers} \\
+\location{Node.js, MochaJS, ExpressJS, AngularJS, MongoDB}
 \vspace{\topsep}\vspace{0.5mm}
 \begin{tightemize}
-\item Leading a team of 5 to develop a question \& answer system for UW students
-\item Developed entire Node.js backend, prototyped Angular frontend
+\item Led a team of 5 to develop a question \& answer system for UW students
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Skip The Wait}
-\descript{Backend Developer}
-\location{Hack The North 2014 | \textbf{Node.js}, \textbf{ExpressJS}, \textbf{AngularJS}, \textbf{MongoDB}}
+% \runsubsection{Skip The Wait}
+% \descript{Backend Developer}
+% \location{\textbf{Node.js}, \textbf{ExpressJS}, \textbf{AngularJS}, \textbf{MongoDB}}
+% \begin{tightemize}
+% \item Reduce wait time by allowing patients to check-in online for walk-in clinics
+% \end{tightemize}
+% \sectionsep
+
+\runsubsectionhref{http://www.uwwhiteboard.com}{WhiteBoard} \\
+\location{Node.js, ExpressJS, MongoDB, EJS Templating}
 \begin{tightemize}
-\item Reduce wait time by allowing patients to check-in online for walk-in clinics
-\item Created API endpoints, data models, and NoSQL db queries
+\item A platform to help find developers for side projects
+\item Winner of the \acc{Best Design Award} at HackWaterloo
 \end{tightemize}
 \sectionsep
 
-\runsubsection{\href{http://www.uwwhiteboard.com}{WhiteBoard}}
-\descript{Lead Developer}
-\location{HackWaterloo 2014 | \textbf{Node.js}, \textbf{ExpressJS}, \textbf{MongoDB}, \textbf{EJS Templating}}
+\runsubsectionhref{http://sahiljain.ca/digit}{Digit Recognizer} \\
+\location{MATLAB, JavaScript}
 \begin{tightemize}
-\item A platform to help you find developers for your side projects
-\item Winner of the \acc{Best Design Award}
+\item Used MNIST dataset to train a \acc{neural network} via backpropogation
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Stock Analyzer} \\
-\location{\textbf{Java}, \textbf{HTML5}}
+\runsubsectionhref{http://sahiljain.ca/stockdisplay}{Stock Analyzer} \\
+\location{Java, HTML5, JavaScript}
 \begin{tightemize}
 \item Applied \acc{machine learning} principles to find momentum reversals and trends
-\item Determined by volumetric outliers and outstanding price movement
-\item Retrieves stock data from Yahoo API and displays candlestick chart
 \end{tightemize}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \mainsep
 \MarginText{\section{Education}}
 \runsubsection{University of Waterloo}
 \descript{Bachelor of Software Engineering}
-\location{Expected April 2018}
-\vspace{\topsep}
-\begin{tightemize}
-\item Cumulative average: \acc{92.4\%}
-\item \textbf{Awards}: Dean's List, top 10\% of class every term, President's Scholarship
-\end{tightemize}
-\sectionsep
+\location{Expected April 2018 | Cumulative average: \acc{92.3\%}}
+% \vspace{\topsep}
+% \begin{tightemize}
+% \item Awards: Dean's List, top 10\% of class every term, President's Scholarship
+% \end{tightemize}
+% \sectionsep
+\mainsep
 
-\runsubsection{Mississauga Secondary School}\\
-\location{Graduated June 2013}
-\begin{tightemize}
-\item Grade 12 average: \acc{96.3\%}
-\item \nth{1} in school: Euclid, CCC, SIN
-\item \textbf{Awards}: Governor General's Award, Silver Lion's Award, \nth{4} in Peel ECOO
-\end{tightemize}
-\sectionsep
+% \runsubsection{Mississauga Secondary School}\\
+% \location{Graduated June 2013 | Grade 12 average: \acc{96.3\%}}
+% \begin{tightemize}
+% \item \nth{1} in school in Euclid/CCC/SIN, Governor General's Award, Silver Lion's Award
+% \end{tightemize}
+% \sectionsep
+
+\MarginText{\vspace{-0.25mm}\section{Awards}}
+\noindent
+\hspace*{-0.5mm}
+\vspace{1mm}
+\textbf{University}: Dean's Honour List, top 10\% of class every term, President's Scholarship \\
+\hspace*{-0.5mm}
+\textbf{High School}: \nth{1} in school in Fermat/Euclid/CCC/SIN, Governor General's Award
 
 %\end{minipage} 
 \end{document}  \documentclass[]{article}
