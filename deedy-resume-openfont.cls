@@ -48,6 +48,7 @@ Last Updated on \today
 } \\[5pt]
 \centering{
 \color{headings}
+\vspace{6pt}
 \fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont #3}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
 \vspace{-15pt}
