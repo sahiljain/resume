@@ -62,7 +62,8 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{adjustwidth*}{-5.50cm}{-1.5cm}
+\vspace*{-1.5mm}
+\begin{adjustwidth*}{-5.50cm}{-1.6cm}
 \namesection{Sahil}{Jain}{\urlstyle{same}3B Software Engineering \hspace{\x} 
 \faUser \hspace{0.3mm} \href{http://sahiljain.ca/}{sahiljain.ca} \hspace{\x} 
 %\faGithub \hspace{0.3mm} \href{https://github.com/sahiljain}{sahiljain} \hspace{\x}
@@ -72,7 +73,7 @@
 \end{adjustwidth*}
 
 \setlength\marginparwidth{105pt}
-\vspace{6mm}
+\vspace{7mm}
 \reversemarginpar
 \MarginText{\vspace{0.5mm}\section{Skills}}
 \noindent
@@ -89,7 +90,6 @@
 %\hspace*{-0.75mm}
 %\textbf{Hardware}: Arduino, Raspberry Pi, cRIO, Scribbler
 \mainsep
-\vspace{-1mm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -99,12 +99,13 @@
 \hspace{-1.5mm}
 \runsubsectionhref{https://www.facebook.com/}{Facebook}
 \descriptnolinelight{Software Engineering Intern} \hfill \locationlight{Spring 2016 | Menlo Park}
-\location{C++, Java, PHP, Flatbuffers, Thrift, Zstandard Compression}
+\vspace{0.5mm}
+%\location{C++, Java, PHP, Python, Flatbuffers}
 \vspace{\topsep}
-\vspace{1mm}
+\vspace{1.5mm}
 \begin{tightemize}
-\item Contributed to cross-platform data-syncing library in \acc{Messenger}
-\item Reduced Messenger background data usage by \acc{1-2\%} overall \\ using Invertible Bloom Filters for set reconciliation
+\item Contributed to C++ cross-platform data-syncing library in \acc{Messenger}
+\item Reduced Messenger background data usage by \acc{1-2\%} overall using \\ Invertible Bloom Filters for set reconciliation
 \item Optimized state logic to reduce round-trip requests
 \item Recommended Zstandard dictionary compression using benchmarks
 \item Recommended changes to Flatbuffer schemas to reduce serialized message size
@@ -114,25 +115,27 @@
 \end{tightemize}
 
 \sectionsep
-\vspace{2mm}
+\vspace{4mm}
 
 \runsubsectionhref{https://www.pagerduty.com/}{PagerDuty}
 \descriptnolinelight{Backend Services Developer} \hfill \locationlight{Fall 2015 | Toronto}
-\location{Scala, Cassandra, Rails, Python, MySQL, Finagle, Thrift, AWS}
+\vspace{0.5mm}
+%\location{Scala, Cassandra, Rails, Python, MySQL, Thrift, AWS}
 \vspace{0.5mm}
 \begin{tightemize}
-\item Improved reliability, scalability, and performance \\ of critical realtime \acc{Scala services} in the alerting pipeline
+\item Improved reliability, scalability, and performance of critical \\ realtime \acc{Scala services} in the alerting pipeline
 \item Increased data archival speed \acc{10x} by implementing concurrency
 %\item Optimized Cassandra queries and applied distributed systems concepts
 \item Optimized Cassandra queries, improved SLA metric accuracy, \\ and reduced transient alerts
 \end{tightemize}
 
 \sectionsep
-\vspace{2mm}
+\vspace{4mm}
 
 \runsubsectionhref{http://www.remind.com}{Remind101}
 \descriptnolinelight{Software Engineering Intern} \hfill \locationlight{Winter 2015 | San Francisco}
-\location{Android, Robolectric, SQL, Jenkins, AngularJS, Rails}
+\vspace{0.5mm}
+%\location{Android, Robolectric, SQL, Jenkins, Angular, Rails}
 \vspace{0.5mm}
 \begin{tightemize}
 \item Developed Android client with over \acc{5 million} downloads
@@ -143,11 +146,12 @@
 \end{tightemize}
 
 \sectionsep
-\vspace{2mm}
+\vspace{4mm}
 
 \runsubsectionhref{http://pivotallabs.com/}{Pivotal Labs}
 \descriptnolinelight{Agile Engineering Intern} \hfill \locationlight{Spring 2014 | Toronto}
-\location{Android, Robolectric, SQL}
+\vspace{0.5mm}
+%\location{Android, Robolectric, SQL}
 \vspace{0.5mm}
 \begin{tightemize}
 \item Prototyped and released Android apps using \acc{TDD} and \acc{Agile}
@@ -161,6 +165,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \mainsep
+\vspace{1mm}
 \MarginText{\vspace{-0.5mm}\section{Projects}}
 %\runsubsectionhref{http://askuw.sahiljain.ca}{Waterloo Answers} \\
 %\location{Node.js, MochaJS, ExpressJS, AngularJS, MongoDB}
@@ -180,18 +185,19 @@
 
 \runsubsectionhref{http://www.sahiljain.ca/chess}{Chess AI} 
 \location{Java, Javascript, Amazon EC2}
-\vspace{\topsep}\vspace{0.5mm}
-\begin{tightemize}
-\item A computer player using the minimax algorithm with alpha-beta pruning
-\end{tightemize}
-\sectionsep
+\vspace{1mm}
+\noindent
+\hspace*{-0.5mm}
+A computer player using the minimax algorithm with alpha-beta pruning
 
+\sectionsep
+\sectionsep
 \runsubsectionhref{http://www.uwwhiteboard.com}{WhiteBoard} 
-\location{Node.js, ExpressJS, MongoDB, EJS Templating}
-\begin{tightemize}
-\item A platform to help find developers for side projects
-\item Winner of the \acc{Best Design Award} at HackWaterloo
-\end{tightemize}
+\location{Node.js, ExpressJS, MongoDB}
+\vspace{1mm}
+\noindent
+\hspace*{-0.5mm}
+A platform to connect developers, \acc{Best Design Award} at HackWATERLOO 
 
 %\runsubsectionhref{http://sahiljain.ca/digit}{Digit Recognizer} \\
 %\location{MATLAB, JavaScript}
@@ -212,26 +218,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \mainsep
-\vspace{-1mm}
-
 
 \MarginText{\section{Education}}
 \runsubsection{University of Waterloo}
 \descript{Bachelor of Software Engineering}
 \location{Expected April 2018 | Cumulative average: \acc{92.6\%}}
-% \vspace{\topsep}
-% \begin{tightemize}
-% \item Awards: Dean's List, top 10\% of class every term, President's Scholarship
-% \end{tightemize}
-% \sectionsep
 \mainsep
-\vspace{-1mm}
-% \runsubsection{Mississauga Secondary School}\\
-% \location{Graduated June 2013 | Grade 12 average: \acc{96.3\%}}
-% \begin{tightemize}
-% \item \nth{1} in school in Euclid/CCC/SIN, Governor General's Award, Silver Lion's Award
-% \end{tightemize}
-% \sectionsep
 
 \MarginText{\vspace{-0.25mm}\section{Awards}}
 \noindent
