@@ -47,9 +47,12 @@
 \usepackage{fancyhdr}
 \usepackage{nth}
 \usepackage{changepage}
- 
+\usepackage{fontspec}
+\usepackage{fontawesome} 
 \pagestyle{fancy}
 \fancyhf{}
+
+\newcommand\x{7.0mm}
  
 \begin{document}
 
@@ -60,72 +63,95 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{adjustwidth*}{-5.50cm}{-1.5cm}
-\namesection{Sahil}{Jain}{\urlstyle{same}3A Software Engineering | 
-\href{http://sahiljain.ca}{sahiljain.ca} | \href{mailto:s44jain@uwaterloo.ca}{s44jain@uwaterloo.ca} | 647-949-8165
+\namesection{Sahil}{Jain}{\urlstyle{same}3B Software Engineering \hspace{\x} 
+\faUser \hspace{0.3mm} \href{http://sahiljain.ca/}{sahiljain.ca} \hspace{\x} 
+%\faGithub \hspace{0.3mm} \href{https://github.com/sahiljain}{sahiljain} \hspace{\x}
+\faPhone \hspace{0.3mm} \href{tel:16479498165}{647-949-8165} \hspace{\x}
+\faEnvelope \hspace{0.3mm} \href{mailto:s44jain@uwaterloo.ca}{s44jain@uwaterloo.ca}
 }
 \end{adjustwidth*}
 
 \setlength\marginparwidth{105pt}
-\vspace{7mm}
+\vspace{6mm}
 \reversemarginpar
 \MarginText{\vspace{0.5mm}\section{Skills}}
 \noindent
 \hspace*{-0.75mm}
 \vspace{1.5mm}
-\textbf{Languages}: Scala, Java, JavaScript, C/C++, Python, Ruby, SQL, PHP \\
+\textbf{Languages}: Java, C/C++, Scala, JavaScript, Python, HTML/CSS, PHP, Ruby, SQL \\
 \hspace*{-0.5mm}
 \vspace{1.5mm}
-\textbf{Technologies}: Android, Node.js, Cassandra, MongoDB, AngularJS, Rails \\
+\textbf{Technologies}: Android, Node.js, Cassandra, MySQL, MongoDB, React/AngularJS, Rails \\
 \hspace*{-0.5mm}
-\vspace{1.5mm}
-\textbf{Software}: IntelliJ IDEA, Eclipse, Visual Studio, Jenkins, Git, SVN \\
-\hspace*{-0.75mm}
-\textbf{Hardware}: Arduino, Raspberry Pi, cRIO, Scribbler
+%\vspace{1.5mm}
+\vspace{-1.7mm}
+\textbf{Software}: IntelliJ IDEA, Git, SVN, Mercurial, Vim, Tmux, Jenkins, AWS \\
+%\hspace*{-0.75mm}
+%\textbf{Hardware}: Arduino, Raspberry Pi, cRIO, Scribbler
 \mainsep
-
-
+\vspace{-1mm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\MarginText{\vspace{-0.5mm}\section{Experience}}
+\MarginText{\vspace{0.3mm}\section{Experience}}
 \noindent
 \hspace{-1.5mm}
-\runsubsectionhref{https://www.pagerduty.com/}{PagerDuty}
-\descriptnoline{Backend Services Developer} \hfill \location{Fall 2015 | Toronto}
-\location{Scala, Cassandra, Finagle, Apache Thrift, Zookeeper, Rails, AWS}
-\vspace{\topsep}\vspace{0.5mm}
+\runsubsectionhref{https://www.facebook.com/}{Facebook}
+\descriptnolinelight{Software Engineering Intern} \hfill \locationlight{Spring 2016 | Menlo Park}
+\location{C++, Java, PHP, Flatbuffers, Thrift, Zstandard Compression}
+\vspace{\topsep}
+\vspace{1mm}
 \begin{tightemize}
-\item Improved reliability, scalability, and performance of critical realtime Scala services in the alerting pipeline
-\item Increased production data archival speed \acc{10x} by implementing concurrency
-\item Optimized Cassandra queries and applied distributed systems concepts
-\item Improved SLA metric accuracy and reduced transient alerts
+\item Contributed to cross-platform data-syncing library in \acc{Messenger}
+\item Reduced Messenger background data usage by \acc{1-2\%} overall \\ using Invertible Bloom Filters for set reconciliation
+\item Optimized state logic to reduce round-trip requests
+\item Recommended Zstandard dictionary compression using benchmarks
+\item Recommended changes to Flatbuffer schemas to reduce serialized message size
+\item Independently contributed to Google Flatbuffers \acc{open source} project
+%\item Prevented leaks of internal URLs in open-source documentation by transforming URLs in the document generator
+%\item Added logging to track Omnistore data usage
 \end{tightemize}
 
 \sectionsep
+\vspace{2mm}
+
+\runsubsectionhref{https://www.pagerduty.com/}{PagerDuty}
+\descriptnolinelight{Backend Services Developer} \hfill \locationlight{Fall 2015 | Toronto}
+\location{Scala, Cassandra, Rails, Python, MySQL, Finagle, Thrift, AWS}
+\vspace{0.5mm}
+\begin{tightemize}
+\item Improved reliability, scalability, and performance \\ of critical realtime \acc{Scala services} in the alerting pipeline
+\item Increased data archival speed \acc{10x} by implementing concurrency
+%\item Optimized Cassandra queries and applied distributed systems concepts
+\item Optimized Cassandra queries, improved SLA metric accuracy \\ and reduced transient alerts
+\end{tightemize}
+
+\sectionsep
+\vspace{2mm}
 
 \runsubsectionhref{http://www.remind.com}{Remind101}
-\descriptnoline{Software Engineering Intern} \hfill \location{Winter 2015 | San Francisco}
-\location{Android, Robolectric, Jenkins, AngularJS, Rails}
+\descriptnolinelight{Software Engineering Intern} \hfill \locationlight{Winter 2015 | San Francisco}
+\location{Android, Robolectric, SQL, Jenkins, AngularJS, Rails}
 \vspace{0.5mm}
 \begin{tightemize}
-\item Developed Android client with over \acc{1 million} downloads; \acc{99.9\%} crash-free status
-\item Independently developed Office Hours feature, used by over \acc{50\%} of teachers
+\item Developed Android client with over \acc{5 million} downloads
+\item Independently developed Office Hours feature, used by over 50\% of teachers
 \item Implemented \acc{Material Design} and enhanced notifications for \acc{Android Wear}
-\item Improved performance and reliability of test suite by migrating tests to Robolectric
-and reconfiguring Jenkins build server
-\item Made minor UI improvements to Rails and Angular app 
+\item Improved test suite performance by migrating to Robolectric, reconfiguring Jenkins
+\item Made UI improvements to Rails and Angular app 
 \end{tightemize}
 
 \sectionsep
+\vspace{2mm}
 
 \runsubsectionhref{http://pivotallabs.com/}{Pivotal Labs}
-\descriptnoline{Agile Engineering Intern} \hfill \location{Spring 2014 | Toronto}
-\location{Android, Robolectric}
+\descriptnolinelight{Agile Engineering Intern} \hfill \locationlight{Spring 2014 | Toronto}
+\location{Android, Robolectric, SQL}
 \vspace{0.5mm}
 \begin{tightemize}
-\item Prototyped and released Android apps using \acc{TDD} and \acc{Agile} the right way
-\item Shipped mobile payment and XMPP chat apps using Arca MVVM framework
+\item Prototyped and released Android apps using \acc{TDD} and \acc{Agile}
+%\item Shipped mobile payment and XMPP chat apps using Arca MVVM framework
 \item Learned Android testing best practices from the creators of Robolectric
 \end{tightemize}
 
@@ -136,13 +162,13 @@ and reconfiguring Jenkins build server
 
 \mainsep
 \MarginText{\vspace{-0.5mm}\section{Projects}}
-\runsubsectionhref{http://askuw.sahiljain.ca}{Waterloo Answers} \\
-\location{Node.js, MochaJS, ExpressJS, AngularJS, MongoDB}
-\vspace{\topsep}\vspace{0.5mm}
-\begin{tightemize}
-\item Led a team of 5 to develop a question \& answer system for UW students
-\end{tightemize}
-\sectionsep
+%\runsubsectionhref{http://askuw.sahiljain.ca}{Waterloo Answers} \\
+%\location{Node.js, MochaJS, ExpressJS, AngularJS, MongoDB}
+%\vspace{\topsep}\vspace{0.5mm}
+%\begin{tightemize}
+%\item Led a team of 5 to develop a question \& answer system for UW students
+%\end{tightemize}
+%\sectionsep
 
 % \runsubsection{Skip The Wait}
 % \descript{Backend Developer}
@@ -152,26 +178,33 @@ and reconfiguring Jenkins build server
 % \end{tightemize}
 % \sectionsep
 
-\runsubsectionhref{http://www.uwwhiteboard.com}{WhiteBoard} \\
-\location{Node.js, ExpressJS, MongoDB, EJS Templating}
+\runsubsectionhref{http://www.sahiljain.ca/chess}{Chess AI} 
+\locationlight{Java, Javascript, Amazon EC2}
+\vspace{\topsep}\vspace{0.5mm}
+\begin{tightemize}
+\item A computer player using the minimax algorithm with alpha-beta pruning
+\end{tightemize}
+\sectionsep
+
+\runsubsectionhref{http://www.uwwhiteboard.com}{WhiteBoard} 
+\locationlight{Node.js, ExpressJS, MongoDB, EJS Templating}
 \begin{tightemize}
 \item A platform to help find developers for side projects
 \item Winner of the \acc{Best Design Award} at HackWaterloo
 \end{tightemize}
-\sectionsep
 
-\runsubsectionhref{http://sahiljain.ca/digit}{Digit Recognizer} \\
-\location{MATLAB, JavaScript}
-\begin{tightemize}
-\item Used MNIST dataset to train a \acc{neural network} via backpropogation
-\end{tightemize}
-\sectionsep
+%\runsubsectionhref{http://sahiljain.ca/digit}{Digit Recognizer} \\
+%\location{MATLAB, JavaScript}
+%\begin{tightemize}
+%\item Used MNIST dataset to train a \acc{neural network} via backpropogation
+%\end{tightemize}
+%\sectionsep
 
-\runsubsectionhref{http://sahiljain.ca/stockdisplay}{Stock Analyzer} \\
-\location{Java, HTML5, JavaScript}
-\begin{tightemize}
-\item Applied \acc{machine learning} principles to find momentum reversals and trends
-\end{tightemize}
+%\runsubsectionhref{http://sahiljain.ca/stockdisplay}{Stock Analyzer} \\
+%\location{Java, HTML5, JavaScript}
+%\begin{tightemize}
+%\item Applied \acc{machine learning} principles to find momentum reversals and trends
+%\end{tightemize}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -179,17 +212,20 @@ and reconfiguring Jenkins build server
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \mainsep
+\vspace{-1mm}
+
+
 \MarginText{\section{Education}}
 \runsubsection{University of Waterloo}
 \descript{Bachelor of Software Engineering}
-\location{Expected April 2018 | Cumulative average: \acc{92.3\%}}
+\location{Expected April 2018 | Cumulative average: \acc{92.6\%}}
 % \vspace{\topsep}
 % \begin{tightemize}
 % \item Awards: Dean's List, top 10\% of class every term, President's Scholarship
 % \end{tightemize}
 % \sectionsep
 \mainsep
-
+\vspace{-1mm}
 % \runsubsection{Mississauga Secondary School}\\
 % \location{Graduated June 2013 | Grade 12 average: \acc{96.3\%}}
 % \begin{tightemize}

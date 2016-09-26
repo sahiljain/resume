@@ -19,9 +19,11 @@
 % Color definitions
 \usepackage[usenames,dvipsnames]{xcolor} 
 \definecolor{date}{HTML}{666666} 
-\definecolor{primary}{HTML}{2b2b2b} 
-\definecolor{headings}{HTML}{6A6A6A}
+\definecolor{primary}{HTML}{010101} 
+\definecolor{headings}{HTML}{696969}
+\definecolor{headingslight}{HTML}{848484}
 \definecolor{subheadings}{HTML}{333333}
+\definecolor{subheadingslight}{HTML}{848484}
 \definecolor{accent}{HTML}{057AA2}
 
 % Set main fonts
@@ -48,6 +50,7 @@ Last Updated on \today
 } \\[5pt]
 \centering{
 \color{headings}
+\vspace{6pt}
 \fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont #3}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
 \vspace{-15pt}
@@ -72,7 +75,7 @@ Last Updated on \today
 \color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
 
 \newcommand{\runsubsectionhref}[2]{
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\href {#1}{\uppercase{#2}} \normalfont}
+\color{primary}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\href {#1}{\uppercase{#2}} \normalfont}
 
 % Descriptors command
 \newcommand{\descript}[1]{
@@ -81,15 +84,22 @@ Last Updated on \today
 \newcommand{\descriptnoline}[1]{
 \color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
 
+\newcommand{\descriptnolinelight}[1]{
+\color{subheadingslight}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
 % Location command
 \newcommand{\location}[1]{
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
+
+% Location command
+\newcommand{\locationlight}[1]{
+\color{headingslight}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
 
 \newcommand{\acc}[1]{\color{accent}\fontspec[Path = fonts/lato/]{Lato-Bol}\selectfont{#1}\normalfont}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
-\vspace{-\topsep}\begin{itemize}\itemsep 3pt \parskip0pt \parsep0pt}
+\vspace{-\topsep}\begin{itemize}\itemsep 3.5pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
 
 \newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small\vspace{-1mm}#1}}
