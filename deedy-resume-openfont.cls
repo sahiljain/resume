@@ -21,9 +21,9 @@
 \definecolor{date}{HTML}{666666} 
 \definecolor{primary}{HTML}{010101} 
 \definecolor{headings}{HTML}{696969}
-\definecolor{headingslight}{HTML}{848484}
+\definecolor{headingslight}{HTML}{999999}
 \definecolor{subheadings}{HTML}{333333}
-\definecolor{subheadingslight}{HTML}{848484}
+\definecolor{subheadingslight}{HTML}{999999}
 \definecolor{accent}{HTML}{057AA2}
 
 % Set main fonts

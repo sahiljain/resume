@@ -81,7 +81,7 @@
 \textbf{Languages}: Java, C/C++, Scala, JavaScript, Python, HTML/CSS, PHP, Ruby, SQL \\
 \hspace*{-0.5mm}
 \vspace{1.5mm}
-\textbf{Technologies}: Android, Node.js, Cassandra, MySQL, MongoDB, React/AngularJS, Rails \\
+\textbf{Technologies}: Android, Node.js, Cassandra, MySQL, MongoDB, Rails, Angular, React \\
 \hspace*{-0.5mm}
 %\vspace{1.5mm}
 \vspace{-1.7mm}
@@ -124,7 +124,7 @@
 \item Improved reliability, scalability, and performance \\ of critical realtime \acc{Scala services} in the alerting pipeline
 \item Increased data archival speed \acc{10x} by implementing concurrency
 %\item Optimized Cassandra queries and applied distributed systems concepts
-\item Optimized Cassandra queries, improved SLA metric accuracy \\ and reduced transient alerts
+\item Optimized Cassandra queries, improved SLA metric accuracy, \\ and reduced transient alerts
 \end{tightemize}
 
 \sectionsep
@@ -179,7 +179,7 @@
 % \sectionsep
 
 \runsubsectionhref{http://www.sahiljain.ca/chess}{Chess AI} 
-\locationlight{Java, Javascript, Amazon EC2}
+\location{Java, Javascript, Amazon EC2}
 \vspace{\topsep}\vspace{0.5mm}
 \begin{tightemize}
 \item A computer player using the minimax algorithm with alpha-beta pruning
@@ -187,7 +187,7 @@
 \sectionsep
 
 \runsubsectionhref{http://www.uwwhiteboard.com}{WhiteBoard} 
-\locationlight{Node.js, ExpressJS, MongoDB, EJS Templating}
+\location{Node.js, ExpressJS, MongoDB, EJS Templating}
 \begin{tightemize}
 \item A platform to help find developers for side projects
 \item Winner of the \acc{Best Design Award} at HackWaterloo
