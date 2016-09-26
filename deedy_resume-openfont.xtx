@@ -72,7 +72,7 @@
 \end{adjustwidth*}
 
 \setlength\marginparwidth{105pt}
-\vspace{7mm}
+\vspace{6mm}
 \reversemarginpar
 \MarginText{\vspace{0.5mm}\section{Skills}}
 \noindent
@@ -89,18 +89,19 @@
 %\hspace*{-0.75mm}
 %\textbf{Hardware}: Arduino, Raspberry Pi, cRIO, Scribbler
 \mainsep
-
+\vspace{-1mm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\MarginText{\vspace{-0.5mm}\section{Experience}}
+\MarginText{\vspace{0.3mm}\section{Experience}}
 \noindent
 \hspace{-1.5mm}
 \runsubsectionhref{https://www.facebook.com/}{Facebook}
-\descriptnoline{Software Engineering Intern} \hfill \location{Spring 2016 | Menlo Park}
+\descriptnolinelight{Software Engineering Intern} \hfill \locationlight{Spring 2016 | Menlo Park}
 \location{C++, Java, PHP, Flatbuffers, Thrift, Zstandard Compression}
-\vspace{\topsep}\vspace{0.5mm}
+\vspace{\topsep}
+\vspace{1mm}
 \begin{tightemize}
 \item Contributed to cross-platform data-syncing library in \acc{Messenger}
 \item Reduced Messenger background data usage by \acc{1-2\%} overall \\ using Invertible Bloom Filters for set reconciliation
@@ -113,10 +114,12 @@
 \end{tightemize}
 
 \sectionsep
+\vspace{2mm}
 
 \runsubsectionhref{https://www.pagerduty.com/}{PagerDuty}
-\descriptnoline{Backend Services Developer} \hfill \location{Fall 2015 | Toronto}
+\descriptnolinelight{Backend Services Developer} \hfill \locationlight{Fall 2015 | Toronto}
 \location{Scala, Cassandra, Rails, Python, MySQL, Finagle, Thrift, AWS}
+\vspace{0.5mm}
 \begin{tightemize}
 \item Improved reliability, scalability, and performance \\ of critical realtime \acc{Scala services} in the alerting pipeline
 \item Increased data archival speed \acc{10x} by implementing concurrency
@@ -125,9 +128,10 @@
 \end{tightemize}
 
 \sectionsep
+\vspace{2mm}
 
 \runsubsectionhref{http://www.remind.com}{Remind101}
-\descriptnoline{Software Engineering Intern} \hfill \location{Winter 2015 | San Francisco}
+\descriptnolinelight{Software Engineering Intern} \hfill \locationlight{Winter 2015 | San Francisco}
 \location{Android, Robolectric, SQL, Jenkins, AngularJS, Rails}
 \vspace{0.5mm}
 \begin{tightemize}
@@ -139,9 +143,10 @@
 \end{tightemize}
 
 \sectionsep
+\vspace{2mm}
 
 \runsubsectionhref{http://pivotallabs.com/}{Pivotal Labs}
-\descriptnoline{Agile Engineering Intern} \hfill \location{Spring 2014 | Toronto}
+\descriptnolinelight{Agile Engineering Intern} \hfill \locationlight{Spring 2014 | Toronto}
 \location{Android, Robolectric, SQL}
 \vspace{0.5mm}
 \begin{tightemize}
@@ -174,7 +179,7 @@
 % \sectionsep
 
 \runsubsectionhref{http://www.sahiljain.ca/chess}{Chess AI} 
-\location{Java, Javascript, Amazon EC2}
+\locationlight{Java, Javascript, Amazon EC2}
 \vspace{\topsep}\vspace{0.5mm}
 \begin{tightemize}
 \item A computer player using the minimax algorithm with alpha-beta pruning
@@ -182,7 +187,7 @@
 \sectionsep
 
 \runsubsectionhref{http://www.uwwhiteboard.com}{WhiteBoard} 
-\location{Node.js, ExpressJS, MongoDB, EJS Templating}
+\locationlight{Node.js, ExpressJS, MongoDB, EJS Templating}
 \begin{tightemize}
 \item A platform to help find developers for side projects
 \item Winner of the \acc{Best Design Award} at HackWaterloo
@@ -207,6 +212,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \mainsep
+\vspace{-1mm}
+
+
 \MarginText{\section{Education}}
 \runsubsection{University of Waterloo}
 \descript{Bachelor of Software Engineering}
@@ -217,7 +225,7 @@
 % \end{tightemize}
 % \sectionsep
 \mainsep
-
+\vspace{-1mm}
 % \runsubsection{Mississauga Secondary School}\\
 % \location{Graduated June 2013 | Grade 12 average: \acc{96.3\%}}
 % \begin{tightemize}
