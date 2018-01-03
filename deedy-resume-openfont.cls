@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[left=5.50cm, right=1.6cm, vmargin=0.75cm]{geometry}
+\usepackage[left=5.50cm, right=2cm, vmargin=0.75cm]{geometry}
 \usepackage{hyperref}
 
 % Publications
@@ -50,10 +50,10 @@ Last Updated on \today
 } \\[5pt]
 \centering{
 \color{headings}
-\vspace{6pt}
+\vspace{15pt}
 \fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont #3}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
-\vspace{-15pt}
+\vspace{-10pt}
 }
 
 % Section seperators 
@@ -79,7 +79,9 @@ Last Updated on \today
 
 % Descriptors command
 \newcommand{\descript}[1]{
-\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\color{subheadings}\raggedright\scshape\fontspec[Path =
+fonts/raleway/]{Raleway-Medium}\fontsize{13pt}{15pt}\selectfont {#1 \\}
+\normalfont \normalsize}
 
 \newcommand{\descriptnoline}[1]{
 \color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
@@ -89,7 +91,9 @@ Last Updated on \today
 
 % Location command
 \newcommand{\location}[1]{
-\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
+\color{headings}\raggedright\fontspec[Path =
+fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\}
+\normalfont \normalsize}
 
 % Location command
 \newcommand{\locationlight}[1]{
@@ -99,7 +103,7 @@ Last Updated on \today
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
-\vspace{-\topsep}\begin{itemize}\itemsep 3.8pt \parskip0pt \parsep0pt}
+\vspace{-\topsep}\begin{itemize}\itemsep 5.8pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
 
 \newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small\vspace{-1mm}#1}}

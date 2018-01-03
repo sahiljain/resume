@@ -15,7 +15,7 @@
 % default. If you get compilation errors saying a font is missing, find the line
 % on which the font is used and either change it to a font included with your
 % operating system or comment the line out to use the default font.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TODO:
 % 1. Integrate biber/bibtex for article citation under publications.
@@ -23,7 +23,7 @@
 % 3. Add styling information for a "Projects/Hacks" section.
 % 4. Add location/address information
 % 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % CHANGELOG:
@@ -48,12 +48,12 @@
 \usepackage{nth}
 \usepackage{changepage}
 \usepackage{fontspec}
-\usepackage{fontawesome} 
+\usepackage{fontawesome}
 \pagestyle{fancy}
 \fancyhf{}
 
 \newcommand\x{7.0mm}
- 
+
 \begin{document}
 
 
@@ -62,13 +62,14 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace*{-1.5mm}
-\begin{adjustwidth*}{-5.50cm}{-1.6cm}
-\namesection{Sahil}{Jain}{\urlstyle{same}3B Software Engineering \hspace{\x} 
+\vspace*{-0.5mm}
+\begin{adjustwidth*}{-5.50cm}{-2cm}
+\namesection{Sahil}{Jain}{\urlstyle{same}4B Software Engineering \hspace{\x} 
 \faUser \hspace{0.3mm} \href{http://sahiljain.ca/}{sahiljain.ca} \hspace{\x} 
 %\faGithub \hspace{0.3mm} \href{https://github.com/sahiljain}{sahiljain} \hspace{\x}
 \faPhone \hspace{0.3mm} \href{tel:16479498165}{647-949-8165} \hspace{\x}
-\faEnvelope \hspace{0.3mm} \href{mailto:s44jain@uwaterloo.ca}{s44jain@uwaterloo.ca}
+\vspace{2mm}
+\faEnvelope \hspace{0.3mm} \href{mailto:s44jain@edu.uwaterloo.ca}{s44jain@edu.uwaterloo.ca}
 }
 \end{adjustwidth*}
 
@@ -78,15 +79,17 @@
 \MarginText{\vspace{0.5mm}\section{Skills}}
 \noindent
 \hspace*{-0.75mm}
-\vspace{1.5mm}
-\textbf{Languages}: Java, C/C++, Scala, JavaScript, Python, HTML/CSS, PHP, Ruby, SQL \\
-\hspace*{-0.5mm}
-\vspace{1.5mm}
-\textbf{Technologies}: Android, Node.js, Cassandra, MySQL, MongoDB, Rails, Angular, React \\
-\hspace*{-0.5mm}
-%\vspace{1.5mm}
+\vspace{3mm}
+\textbf{Android}: SQLite, Robolectric, Espresso, JUnit, Mockito, Litho \\
+\hspace*{-1.1mm}
+\vspace{3mm}
+\textbf{Frontend}: Angular, React, HTML/CSS, JavaScript, Ruby/Rails, PHP \\
+\vspace{3mm}
+\hspace*{-1.4mm}
+\textbf{Backend}: Java, C++, Scala, Node.js, Python, SQL, MongoDB, Cassandra, Thrift, \mbox{Flatbuffers} \\
+\hspace*{-0.9mm}
 \vspace{-1.7mm}
-\textbf{Software}: IntelliJ IDEA, Git, SVN, Mercurial, Vim, Tmux, Jenkins, AWS \\
+\textbf{Software}: IntelliJ IDEA, Git, SVN, Mercurial, Vim, Tmux, MySQL, Jenkins, AWS EC2 \\
 %\hspace*{-0.75mm}
 %\textbf{Hardware}: Arduino, Raspberry Pi, cRIO, Scribbler
 \mainsep
@@ -98,30 +101,69 @@
 \noindent
 \hspace{-1.5mm}
 \runsubsectionhref{https://www.facebook.com/}{Facebook}
-\descriptnolinelight{Software Engineering Intern} \hfill \locationlight{Spring 2016 | Menlo Park}
-\vspace{0.5mm}
-%\location{C++, Java, PHP, Python, Flatbuffers}
+\descriptnolinelight{Software Engineering Intern} \hfill \locationlight{Fall 2017 | New York City}
+\vspace{1.0mm}
 \vspace{\topsep}
 \vspace{1.5mm}
 \begin{tightemize}
-\item Contributed to C++ cross-platform data-syncing library in \acc{Messenger}
+% litho, deltoid, ultralight
+\item Live Videos team, enhanced the viewing experience for the \acc{Android} client, used by \acc{millions daily}
+\item Improved video discoverability by showing suggested Live videos, using the Litho framework
+\item Improved fullscreen watch time by \acc{0.5\%} by implementing a fullscreen button
+\item Developed feature to tag and invite friends in comments
+\item Decreased client data usage by \acc{0.6\%} by allowing users to mute comments via a button
+\item Redesigned comment composer as part of app-wide redesign
+% \item Overcame the challenges that come with working on the largest Android production team in the world, with one of the largest user bases in the world
+\end{tightemize}
+
+\sectionsep
+\vspace{5mm}
+
+\runsubsectionhref{https://www.google.com/}{Google}
+\descriptnolinelight{Software Engineering Intern} \hfill \locationlight{Winter 2017 | Waterloo}
+\vspace{0.5mm}
+\vspace{1.0mm}
+\begin{tightemize}
+\item Developed features for WALT, an open source \acc{Android} app + hardware which measures latency of physical sensors for Android/ChromeOS devices
+% \item Walt is used by Android manufacturers including Google for debugging latency
+\item Implemented live graphs which show during measurements and provide greater insight than the final result
+\item Made it easier to debug latency by adding physical events to \acc{Android Systrace}
+\item Added an accelerometer latency test for VR applications
+% \item Added an end-to-end test
+\item Improved code health by starting a \acc{unit test suite} for the Android app
+\item Improved Android app usability by developing a Settings page to customize measurements
+\item Developed a Python server to upload test logs
+% \item Shot/edited instructional videos on how to use WALT
+\end{tightemize}
+
+\sectionsep
+\vspace{5mm}
+
+\runsubsectionhref{https://www.facebook.com/}{Facebook}
+\descriptnolinelight{Software Engineering Intern} \hfill \locationlight{Spring 2016 | Menlo Park}
+\vspace{0.5mm}
+%\location{C++, Java, PHP, Python, Flatbuffers}
+\vspace{1.0mm}
+\begin{tightemize}
+\item Developed features for C++ cross-platform data-syncing library in \acc{Messenger}
 \item Reduced Messenger background data usage by \acc{1-2\%} overall using \\ Invertible Bloom Filters for set reconciliation
 \item Optimized state logic to reduce round-trip requests
-\item Recommended Zstandard dictionary compression using benchmarks
+\item Presented recommendations for \acc{Zstandard} dictionary compression using benchmarks
 \item Recommended changes to Flatbuffer schemas to reduce serialized message size
-\item Independently contributed to Google Flatbuffers \acc{open source} project
+\item Independently contributed to \acc{Google Flatbuffers} open source project
 %\item Prevented leaks of internal URLs in open-source documentation by transforming URLs in the document generator
-%\item Added logging to track Omnistore data usage
+%\item Added logging to track library data usage
 \end{tightemize}
 
 \sectionsep
 \vspace{4mm}
 
+\vspace*{4mm}
 \runsubsectionhref{https://www.pagerduty.com/}{PagerDuty}
 \descriptnolinelight{Backend Services Developer} \hfill \locationlight{Fall 2015 | Toronto}
 \vspace{0.5mm}
 %\location{Scala, Cassandra, Rails, Python, MySQL, Thrift, AWS}
-\vspace{0.5mm}
+\vspace{1.0mm}
 \begin{tightemize}
 \item Improved reliability, scalability, and performance of critical \\ realtime \acc{Scala services} in the alerting pipeline
 \item Increased data archival speed \acc{10x} by implementing concurrency
@@ -130,32 +172,32 @@
 \end{tightemize}
 
 \sectionsep
-\vspace{4mm}
+\vspace{5mm}
 
 \runsubsectionhref{http://www.remind.com}{Remind101}
 \descriptnolinelight{Software Engineering Intern} \hfill \locationlight{Winter 2015 | San Francisco}
 \vspace{0.5mm}
 %\location{Android, Robolectric, SQL, Jenkins, Angular, Rails}
-\vspace{0.5mm}
+\vspace{1.0mm}
 \begin{tightemize}
-\item Developed Android client with over \acc{5 million} downloads
+\item Developed for Android client with over \acc{5 million} downloads
 \item Independently developed Office Hours feature, used by over 50\% of teachers
 \item Implemented \acc{Material Design} and enhanced notifications for \acc{Android Wear}
-\item Improved test suite performance by migrating to Robolectric, reconfiguring Jenkins
-\item Made UI improvements to Rails and Angular app 
+\item Improved test suite performance by migrating to \acc{Robolectric}, and reconfiguring Jenkins
+\item Made UI improvements to Rails and \acc{Angular} app
 \end{tightemize}
 
 \sectionsep
-\vspace{4mm}
+\vspace{5mm}
 
 \runsubsectionhref{http://pivotallabs.com/}{Pivotal Labs}
 \descriptnolinelight{Agile Engineering Intern} \hfill \locationlight{Spring 2014 | Toronto}
 \vspace{0.5mm}
 %\location{Android, Robolectric, SQL}
-\vspace{0.5mm}
+\vspace{1.0mm}
 \begin{tightemize}
 \item Prototyped and released Android apps using \acc{TDD} and \acc{Agile}
-%\item Shipped mobile payment and XMPP chat apps using Arca MVVM framework
+\item Shipped mobile payment app and XMPP chat app
 \item Learned Android testing best practices from the creators of Robolectric
 \end{tightemize}
 
@@ -165,7 +207,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \mainsep
-\vspace{1mm}
+\vspace{2mm}
 \MarginText{\vspace{-0.5mm}\section{Projects}}
 %\runsubsectionhref{http://askuw.sahiljain.ca}{Waterloo Answers} \\
 %\location{Node.js, MochaJS, ExpressJS, AngularJS, MongoDB}
@@ -183,28 +225,39 @@
 % \end{tightemize}
 % \sectionsep
 
-\runsubsectionhref{http://www.sahiljain.ca/chess}{Chess AI} 
-\location{Java, Javascript, Amazon EC2}
+\runsubsectionhref{http://www.sahiljain.ca/chess}{Chess AI} \\
 \vspace{1mm}
-\noindent
-\hspace*{-0.5mm}
-A computer player using the minimax algorithm with alpha-beta pruning
+\location{Java, JavaScript, Amazon EC2}
+\vspace{4mm}
+%\noindent
+%\hspace*{-0.5mm}
+\begin{tightemize}
+\item A computer player using the minimax algorithm with alpha-beta pruning
+\end{tightemize}
 
 \sectionsep
-\sectionsep
-\runsubsectionhref{http://www.uwwhiteboard.com}{WhiteBoard} 
+\vspace{3mm}
+\runsubsectionhref{http://www.uwwhiteboard.com}{WhiteBoard} \\
+\vspace{1mm}
 \location{Node.js, ExpressJS, MongoDB}
 \vspace{1mm}
-\noindent
-\hspace*{-0.5mm}
-A platform to connect developers, \acc{Best Design Award} at HackWATERLOO 
+%\noindent
+%\hspace*{-0.5mm}
+\begin{tightemize}
+\item A platform to connect developers
+\item \acc{Best Design Award} at HackWATERLOO
+\end{tightemize}
 
-%\runsubsectionhref{http://sahiljain.ca/digit}{Digit Recognizer} \\
-%\location{MATLAB, JavaScript}
-%\begin{tightemize}
-%\item Used MNIST dataset to train a \acc{neural network} via backpropogation
-%\end{tightemize}
-%\sectionsep
+\sectionsep
+\vspace{3mm}
+\runsubsectionhref{http://sahiljain.ca/digit}{Digit Recognizer} \\
+\vspace{1mm}
+\location{MATLAB, JavaScript}
+\vspace{1mm}
+\begin{tightemize}
+\item Used MNIST dataset to train a \acc{neural network} via backpropagation
+\end{tightemize}
+\sectionsep
 
 %\runsubsectionhref{http://sahiljain.ca/stockdisplay}{Stock Analyzer} \\
 %\location{Java, HTML5, JavaScript}
@@ -220,18 +273,24 @@ A platform to connect developers, \acc{Best Design Award} at HackWATERLOO
 \mainsep
 
 \MarginText{\section{Education}}
-\runsubsection{University of Waterloo}
+\runsubsection{University of Waterloo} \\
+\vspace{1.5mm}
 \descript{Bachelor of Software Engineering}
-\location{Expected April 2018 | Cumulative average: \acc{92.6\%}}
+\vspace{1.5mm}
+\location{Expected April 2018 | Cumulative average: \acc{91.8\%}}
+% TODO add relevant courses?, achieved 95%+ in Algorithms, UI, etc...
+
+\sectionsep
 \mainsep
 
 \MarginText{\vspace{-0.25mm}\section{Awards}}
 \noindent
 \hspace*{-0.5mm}
-\vspace{1mm}
+\vspace{2mm}
 \textbf{University}: Dean's Honour List, top 10\% of class every term, President's Scholarship \\
 \hspace*{-0.5mm}
 \textbf{High School}: \nth{1} in school in Fermat/Euclid/CCC/SIN, Governor General's Award
 
 %\end{minipage} 
-\end{document}  \documentclass[]{article}
+\end{document}
+\documentclass[]{article}
