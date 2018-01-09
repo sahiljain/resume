@@ -100,6 +100,8 @@ fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\}
 \color{headingslight}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
 
 \newcommand{\acc}[1]{\color{accent}\fontspec[Path = fonts/lato/]{Lato-Bol}\selectfont{#1}\normalfont}
+\newcommand{\mylink}[1]{\color{accent}\fontspec[Path =
+fonts/lato/]{Lato-LigIta}\fontsize{11pt}{13pt}\selectfont{#1} \normalsize \normalfont}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{

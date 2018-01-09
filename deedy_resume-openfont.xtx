@@ -64,8 +64,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace*{-0.5mm}
 \begin{adjustwidth*}{-5.50cm}{-2cm}
-\namesection{Sahil}{Jain}{\urlstyle{same}4B Software Engineering \hspace{\x} 
-\faUser \hspace{0.3mm} \href{http://sahiljain.ca/}{sahiljain.ca} \hspace{\x} 
+\namesection{Sahil}{Jain}{\urlstyle{same}4B Software Engineering \hspace{\x}
+\faUser \hspace{0.3mm} \href{http://sahiljain.ca/}{sahiljain.ca} \hspace{\x}
 %\faGithub \hspace{0.3mm} \href{https://github.com/sahiljain}{sahiljain} \hspace{\x}
 \faPhone \hspace{0.3mm} \href{tel:16479498165}{647-949-8165} \hspace{\x}
 \vspace{2mm}
@@ -83,10 +83,10 @@
 \textbf{Android}: SQLite, Robolectric, Espresso, JUnit, Mockito, Litho \\
 \hspace*{-1.1mm}
 \vspace{3mm}
-\textbf{Frontend}: Angular, React, HTML/CSS, JavaScript, Ruby/Rails, PHP \\
+\textbf{Frontend}: React, Angular, HTML/CSS, JavaScript, Ruby/Rails, PHP \\
 \vspace{3mm}
 \hspace*{-1.4mm}
-\textbf{Backend}: Java, C++, Scala, Node.js, Python, SQL, MongoDB, Cassandra, Thrift, \mbox{Flatbuffers} \\
+\textbf{Backend}: Java, C++, Scala, Python, SQL, Node.js, MongoDB, Cassandra, Thrift, \mbox{Flatbuffers} \\
 \hspace*{-0.9mm}
 \vspace{-1.7mm}
 \textbf{Software}: IntelliJ IDEA, Git, SVN, Mercurial, Vim, Tmux, MySQL, Jenkins, AWS EC2 \\
@@ -121,18 +121,22 @@
 
 \runsubsectionhref{https://www.google.com/}{Google}
 \descriptnolinelight{Software Engineering Intern} \hfill \locationlight{Winter 2017 | Waterloo}
+\vspace{1.5mm}
+\mylink{\href{http://github.com/google/walt}{http://github.com/google/walt}}
+\vspace{1mm}
 \vspace{0.5mm}
 \vspace{1.0mm}
 \begin{tightemize}
 \item Developed features for WALT, an open source \acc{Android} app + hardware which measures latency of physical sensors for Android/ChromeOS devices
 % \item Walt is used by Android manufacturers including Google for debugging latency
-\item Implemented live graphs which show during measurements and provide greater insight than the final result
-\item Made it easier to debug latency by adding physical events to \acc{Android Systrace}
-\item Added an accelerometer latency test for VR applications
+\item Implemented live graphs to show measurements in real-time, and provide
+greater insight into trends
+\item Exposed the root cause of device latency by adding events to \acc{Android Systrace}
+\item Created accelerometer latency measurement in \acc{Arduino C++} for VR devices
 % \item Added an end-to-end test
-\item Improved code health by starting a \acc{unit test suite} for the Android app
-\item Improved Android app usability by developing a Settings page to customize measurements
-\item Developed a Python server to upload test logs
+\item Introduced automated testing by starting a JUnit test suite, with Mockito
+% \item Improved Android app usability by creating a Settings page to customize measurements
+\item Automated uploading of measurement data by developing a \acc{Python} server
 % \item Shot/edited instructional videos on how to use WALT
 \end{tightemize}
 
@@ -158,14 +162,14 @@
 \sectionsep
 \vspace{4mm}
 
-\vspace*{4mm}
+\vspace*{8mm}
 \runsubsectionhref{https://www.pagerduty.com/}{PagerDuty}
 \descriptnolinelight{Backend Services Developer} \hfill \locationlight{Fall 2015 | Toronto}
 \vspace{0.5mm}
 %\location{Scala, Cassandra, Rails, Python, MySQL, Thrift, AWS}
 \vspace{1.0mm}
 \begin{tightemize}
-\item Improved reliability, scalability, and performance of critical \\ realtime \acc{Scala services} in the alerting pipeline
+\item Improved reliability, scalability, and performance of critical \\ real-time \acc{Scala services} in the alerting pipeline
 \item Increased data archival speed \acc{10x} by implementing concurrency
 %\item Optimized Cassandra queries and applied distributed systems concepts
 \item Optimized Cassandra queries, improved SLA metric accuracy, \\ and reduced transient alerts
@@ -180,7 +184,7 @@
 %\location{Android, Robolectric, SQL, Jenkins, Angular, Rails}
 \vspace{1.0mm}
 \begin{tightemize}
-\item Developed for Android client with over \acc{5 million} downloads
+\item Developed for Android client with over \acc{10 million} downloads
 \item Independently developed Office Hours feature, used by over 50\% of teachers
 \item Implemented \acc{Material Design} and enhanced notifications for \acc{Android Wear}
 \item Improved test suite performance by migrating to \acc{Robolectric}, and reconfiguring Jenkins
@@ -227,7 +231,7 @@
 
 \runsubsectionhref{http://www.sahiljain.ca/chess}{Chess AI} \\
 \vspace{1mm}
-\location{Java, JavaScript, Amazon EC2}
+\location{Java, JavaScript, AWS EC2}
 \vspace{4mm}
 %\noindent
 %\hspace*{-0.5mm}
@@ -237,7 +241,7 @@
 
 \sectionsep
 \vspace{3mm}
-\runsubsectionhref{http://www.uwwhiteboard.com}{WhiteBoard} \\
+\runsubsectionhref{http://github.com/DogWalkers/whiteboard}{WhiteBoard} \\
 \vspace{1mm}
 \location{Node.js, ExpressJS, MongoDB}
 \vspace{1mm}
@@ -278,7 +282,6 @@
 \descript{Bachelor of Software Engineering}
 \vspace{1.5mm}
 \location{Expected April 2018 | Cumulative average: \acc{91.8\%}}
-% TODO add relevant courses?, achieved 95%+ in Algorithms, UI, etc...
 
 \sectionsep
 \mainsep
@@ -291,6 +294,15 @@
 \hspace*{-0.5mm}
 \textbf{High School}: \nth{1} in school in Fermat/Euclid/CCC/SIN, Governor General's Award
 
-%\end{minipage} 
+\mainsep
+\sectionsep
+
+\MarginText{\vspace{-0.25mm}\section{Mentorship}}
+\noindent
+\hspace*{-0.5mm}
+\vspace{2mm}
+\textbf{Fraser Hacks}: Speaker, judge, and led an Android workshop
+
+%\end{minipage}
 \end{document}
 \documentclass[]{article}
